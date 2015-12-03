@@ -1,0 +1,59 @@
+.colorpicker-selected {
+    width: 36px;
+    height: 36px;
+    background: url(../images/select2.png);
+}
+.colorpicker-selected div {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    background: url(../images/select2.png) center;
+}
+.custom-colorpicker > .colorpicker-holder.dropdown-menu {
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+.colorpicker-holder .colorpicker {
+    background-image: url(../images/custom_background.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.colorpicker-holder .colorpicker_hue div {
+    background-image: url(../images/custom_indic.gif);
+}
+.colorpicker-holder .colorpicker_hex {
+    background-image: url(../images/custom_hex.png);
+}
+.colorpicker-holder .colorpicker_rgb_r {
+    background-image: url(../images/custom_rgb_r.png);
+}
+.colorpicker-holder .colorpicker_rgb_g {
+    background-image: url(../images/custom_rgb_g.png);
+}
+.colorpicker-holder .colorpicker_rgb_b {
+    background-image: url(../images/custom_rgb_b.png);
+}
+.colorpicker-holder .colorpicker_hsb_s {
+    background-image: url(../images/custom_hsb_s.png);
+    display: none;
+}
+.colorpicker-holder .colorpicker_hsb_h {
+    background-image: url(../images/custom_hsb_h.png);
+    display: none;
+}
+.colorpicker-holder .colorpicker_hsb_b {
+    background-image: url(../images/custom_hsb_b.png);
+    display: none;
+}
+.colorpicker-holder .colorpicker_submit {
+    background-image: url(../images/custom_submit.png);
+}
+.colorpicker-holder .colorpicker input {
+    color: #778398;
+    top: 5px;
+    height: 14px;
+    padding: 0 1px;
+}
