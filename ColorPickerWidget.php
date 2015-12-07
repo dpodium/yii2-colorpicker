@@ -71,6 +71,7 @@ class ColorPickerWidget extends InputWidget {
                 . "var selected_color = '#' + hex;"
                 . "jQuery('#{$id}-custom-colorpicker .colorpicker-selected > div').css('background-color', selected_color);"
                 . "jQuery('#{$id}-custom-colorpicker > input').val(selected_color);"
+                . "jQuery('#{$id}-custom-colorpicker > input').trigger('change');"
                 . "}";
 
         $options = [];
